@@ -19,6 +19,55 @@ body{
 .navbar ul li a:hover {
     color: #66bb6a;
         } 
+        header {
+            background-color: #4CAF50;
+            padding: 1rem;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        input, textarea {
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+       
     </style>
     <title>Contact</title>
 </head>
@@ -44,7 +93,31 @@ body{
         </ul>
       </div>
     </div>
-<body>
-    
-</body>
+    </nav>
+    <body>
+
+      <header>
+          <h1>Contact Us</h1>
+          <p>Have questions or want to get involved? Reach out to us!</p>
+      </header>
+  
+      <div class="container">
+          <h2>Get in Touch</h2>
+          <p>At Divture, we are committed to protecting endangered species and raising awareness about wildlife conservation. If you'd like to get involved or have any questions about our work, please feel free to contact us below!</p>
+  
+          <form id="contactForm">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name">
+  
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required placeholder="Enter your email">
+  
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+  
+              <button type="submit">Send Message</button>
+          </form>
+      </div>
+  
+  </body>
 </html>

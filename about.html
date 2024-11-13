@@ -19,6 +19,65 @@ body{
 .navbar ul li a:hover {
     color: #66bb6a;
         } 
+        header {
+            background-color: #4CAF50;
+            padding: 1rem;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 1.5rem;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .founders {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+        .founder {
+            width: 250px;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .founder img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .founder h4 {
+            color: #333;
+            font-size: 1.4rem;
+        }
+        .founder p {
+            color: #666;
+        }
+        .founder {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .founder.fade-in {
+            opacity: 1;
+        }
    </style>
     <title>About Us</title>
 </head>
@@ -46,6 +105,39 @@ body{
     </div>
 </nav>
 <body>
-    
+
+  <header>
+      <h1>About Us</h1>
+      <p>Learn more about Divture and the people behind our mission to protect endangered species.</p>
+  </header>
+
+  <div class="container">
+      <h2>Our Mission</h2>
+      <p>At Divture, we are passionate about wildlife conservation, particularly the protection of endangered species around the world. Our goal is to raise awareness and take meaningful action toward preserving biodiversity. Through partnerships, educational campaigns, and direct conservation efforts, we aim to make a significant impact on the future of endangered animals.</p>
+
+      <h3>Meet Our Founders</h3>
+      <p>The Divture project was founded by a group of passionate individuals dedicated to preserving the beauty of wildlife. We are a team of experts, activists, and volunteers committed to making a difference. Below are the founders who have helped bring this vision to life.</p>
+
+      <div class="founders">
+          <div class="founder">
+              <img src="founder1.jpg" alt="Founder 1">
+              <h4>Sander Perejan</h4>
+              <p>Co-Founder & CEO</p>
+              <p>John is an environmental scientist with over 15 years of experience in wildlife conservation. His passion for endangered species led him to start Divture, where he works tirelessly to ensure the protection of wildlife.</p>
+          </div>
+          <div class="founder">
+              <img src="founder2.jpg" alt="Founder 2">
+              <h4>Kenjay Grave</h4>
+              <p>Co-Founder & Director of Outreach</p>
+              <p>Jane is a conservationist and community outreach specialist. She works closely with local communities and partners to spread awareness about the importance of preserving endangered species.</p>
+          </div>
+          <div class="founder">
+              <img src="founder3.jpg" alt="Founder 3">
+              <h4>Christian Joshua Tulod</h4>
+              <p>Co-Founder & Conservation Specialist</p>
+              <p>Mark is a biologist specializing in endangered animal habitats. He leads our field research projects and works directly with conservationists on the ground to ensure species protection.</p>
+          </div>
+      </div>
 </body>
+<script src="about.js"></script>
 </html>
