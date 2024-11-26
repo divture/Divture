@@ -1,0 +1,95 @@
+{
+    "body": {
+        "header": {
+            "imageContainer": {
+                "style": "background-image: url('./images/2.png'); width: 100%; height: 25rem; background-repeat: no-repeat; background-position-y: 60%; background-size: cover; backdrop-filter: brightness(0.8); padding-top: 7rem;",
+                "overlay": {
+                    "style": "background: rgba(0, 0, 0, 0.3); height: 10rem; width: 100%; backdrop-filter: blur(2px)",
+                    "h1": {
+                        "text": "Divture Company"
+                    }
+                }
+            },
+            "container": {
+                "h2": {
+                    "text": "Welcome to Divture: Protecting Nature and Endangered Animals"
+                },
+                "paragraphs": [
+                    "At Divture, we are dedicated to preserving the incredible biodiversity in Philippines. Our mission is to raise awareness and take action towards the conservation of endangered species and the protection of their natural habitats. From the lush rainforests to the deep oceans, every corner in Philippines is home to species that play an essential role in maintaining the ecological balance. Unfortunately, many of these species are facing the threat of extinction due to habitat loss, climate change, poaching, and other human activities.",
+                    "We believe that every species, no matter how big or small, has the right to thrive. Through education, advocacy, and collaboration with conservation efforts worldwide, we aim to empower individuals and communities to make a difference. By supporting wildlife conservation programs, participating in habitat restoration, and promoting sustainable practices, we can help secure a future for generations to come."
+                ]
+            }
+        },
+        "section": [
+            {
+                "container": {
+                    "row": [
+                        {
+                            "col": {
+                                "card": {
+                                    "href": "team.html",
+                                    "image": { "src": "./images/3.png" },
+                                    "cardBody": { "h5": { "text": "Meet Our Team" } }
+                                }
+                            }
+                        },
+                        {
+                            "col": {
+                                "card": {
+                                    "href": "services.html",
+                                    "image": { "src": "./images/5.png" },
+                                    "cardBody": { "h5": { "text": "Our Services" } }
+                                }
+                            }
+                        },
+                        {
+                            "col": {
+                                "card": {
+                                    "href": "join.html",
+                                    "image": { "src": "./images/4.png" },
+                                    "cardBody": { "h5": { "text": "Join Us" } }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "h2": {
+                    "text": "Looking for Something Else?"
+                },
+                "link": {
+                    "href": "https://divture.github.io/Website-Application/index.html",
+                    "text": "Our Website Application"
+                }
+            },
+            {
+                "container": {
+                    "paragraphs": [
+                        "Join us in our mission to protect wildlife, raise awareness about endangered species, and ensure that the wonders of nature continue to flourish for years to come. Explore our website to learn about endangered animals, the challenges they face, and how you can make an impact.",
+                        "Together, we can be the voice for those who cannot speak for themselves."
+                    ]
+                }
+            }
+        ],
+        "footer": {
+            "text": "&copy; 2024 Divture Company. All Rights Reserved."
+        }
+    },
+
+    "header": {
+    "image": "2.png",
+    "title": "Endangered Species Conservation",
+    "subtitle": "Join us in making a difference for wildlife in Philippines."
+  },
+  "introduction": {
+    "title": "Welcome to Our Mission",
+    "text": "At Divture, we are dedicated to the conservation of endangered animals and their habitats. Our mission is to raise awareness, protect wildlife, and support sustainable efforts to preserve the Philippines' most at-risk animals. Our team is passionate about creating positive change and making a lasting impact on the future of wildlife."
+  },
+  "cta": {
+    "title": "Join Our Team and Make a Difference",
+    "text": "We are looking for passionate individuals to help us in our mission to protect endangered animals. Whether you're a biologist, environmental activist, educator, or simply someone who cares about wildlife, there is a place for you in our team.",
+    "link": {
+      "href": "signup.html",
+      "text": "Join Our Team"
+    }
+  }
+}

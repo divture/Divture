@@ -67,7 +67,7 @@ h1{
 </head>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <a class="navbar-brand" href="#" style="padding-left: 1rem;">
-        <img src="1.png" alt="Company Logo" style="height: 40px; width: auto;"> Divture </img>
+        <img src="./images/1.png" alt="Company Logo" style="height: 40px; width: auto;"> Divture </img>
       </a>   
     <div class="container-fluid" style="padding-left: 50rem;">
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -89,66 +89,104 @@ h1{
     </div>
   </nav>
 <body>
-   <header class="head">
-    <div class="image-container" style="background-image: url('2.png'); width: 100%; height: 25rem; background-repeat: no-repeat; background-position-y: 60%; background-size: cover; backdrop-filter: brightness(0.8); padding-top: 7rem;">
-        <div style="background: rgba(0, 0, 0, 0.3); height: 10rem; width: 100%; backdrop-filter: blur(2px)">
-            <h1 style="color: rgb(255, 255, 255); padding-top: 2rem; padding-left: 23rem; font-size: 80px; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                Divture Company
-            </h1>
-        </div>
-       </div>
-       <div class="container" >
-        <h2 style="color: rgb(28, 129, 28);">Welcome to Divture: Protecting Nature and Endangered Animals</h2>
-        <p>At Divture, we are dedicated to preserving the incredible biodiversity in Philippines. Our mission is to raise awareness and take action towards the conservation of endangered species and the protection of their natural habitats. From the lush rainforests to the deep oceans, every corner in Philippines is home to species that play an essential role in maintaining the ecological balance. Unfortunately, many of these species are facing the threat of extinction due to habitat loss, climate change, poaching, and other human activities.</p>
-        <p>We believe that every species, no matter how big or small, has the right to thrive. Through education, advocacy, and collaboration with conservation efforts worldwide, we aim to empower individuals and communities to make a difference. By supporting wildlife conservation programs, participating in habitat restoration, and promoting sustainable practices, we can help secure a future for generations to come.</p>
-        
-      </div>
-   </header>
-   <section style="margin-top: 5rem; height: 70vh;">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <a href="team.html" class="card" style="width: 18rem; text-decoration: none;">
-                    <img src="3.png" class="card-img-top" alt="..." style="height: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Meet Our Team</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="services.html" class="card" style="width: 18rem; text-decoration: none;">
-                    <img src="5.png" class="card-img-top" alt="..." style="height: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Our Services</h5>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a href="join.html" class="card" style="width: 18rem; text-decoration: none;">
-                    <img src="4.png" class="card-img-top" alt="..." style="height: 15rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Join Us</h5>
-                    </div>
-                </a>
+    <header class="head">
+        <div id="image-container" class="image-container">
+            <div id="overlay" style="background: rgba(0, 0, 0, 0.3); height: 10rem; width: 100%; backdrop-filter: blur(2px)">
+                <h1 id="header-title" style="color: rgb(255, 255, 255); padding-top: 2rem; padding-left: 23rem; font-size: 80px; text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></h1>
             </div>
         </div>
-    </div>
-            <h2 class="text-center" style="padding-top: 5rem; color: rgb(28, 129, 28) ;">Looking for Something Else?</h2>
-            <a href="" style="margin-left: 35rem;" > Our Website Application</a>
-   </section>
-   <section style="height: 30vh;">
-    <div class="container" style="margin-top: 5rem;">
-        <p>Join us in our mission to protect wildlife, raise awareness about endangered species, and ensure that the wonders of nature continue to flourish for years to come. Explore our website to learn about endangered animals, the challenges they face, and how you can make an impact.</p>
-        <p>Together, we can be the voice for those who cannot speak for themselves.</p>
-    </div>
-   </section>
-   <section class="footer">
-            <div style=" margin-top: 20px; padding-top: 10px; height: 10vh; background-color: rgb(55, 145, 44);">
-                <p class="text-center" style="font-size: 14px; color: white; padding-top: 1rem;">&copy; 2024 Divture Company. All Rights Reserved.</p>
-              </div>
-         </div>
-    </div>  
-</section>
+
+        <div class="container">
+            <h2 id="welcome-message" style="color: rgb(28, 129, 28);"></h2>
+            <p id="intro-paragraph1"></p>
+            <p id="intro-paragraph2"></p>
+        </div>
+    </header>
+
+    <section style="margin-top: 5rem; height: 70vh;">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <a id="team-link" href="" class="card" style="width: 18rem; text-decoration: none;">
+                        <img id="team-img" src="" class="card-img-top" alt="..." style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" id="team-title"></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="services-link" href="" class="card" style="width: 18rem; text-decoration: none;">
+                        <img id="services-img" src="" class="card-img-top" alt="..." style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" id="services-title"></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a id="join-link" href="" class="card" style="width: 18rem; text-decoration: none;">
+                        <img id="join-img" src="" class="card-img-top" alt="..." style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title" id="join-title"></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h2 id="something-else" class="text-center" style="padding-top: 5rem; color: rgb(28, 129, 28);"></h2>
+        <a id="website-app-link" href="" style="margin-left: 38rem;"></a>
+    </section>
+
+    <section style="height: 30vh;">
+        <div class="container" style="margin-top: 5rem;">
+            <p id="mission-paragraph1"></p>
+            <p id="mission-paragraph2"></p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div style="margin-top: 20px; padding-top: 10px; height: 10vh; background-color: rgb(55, 145, 44);">
+            <p class="text-center" style="font-size: 14px; color: white; padding-top: 1rem;" id="footer-text"></p>
+        </div>
+    </section>
 </body>
-<script src="script.js"></script>
+
+<script>
+    fetch('data.json')
+            .then(response => response.json())
+            .then(jsonData => {
+               
+                document.getElementById("image-container").style = jsonData.body.header.imageContainer.style;
+                document.getElementById("overlay").style = jsonData.body.header.imageContainer.overlay.style;
+                document.getElementById("header-title").innerText = jsonData.body.header.imageContainer.overlay.h1.text;
+
+                document.getElementById("welcome-message").innerText = jsonData.body.header.container.h2.text;
+                document.getElementById("intro-paragraph1").innerText = jsonData.body.header.container.paragraphs[0];
+                document.getElementById("intro-paragraph2").innerText = jsonData.body.header.container.paragraphs[1];
+
+
+                document.getElementById("team-link").href = jsonData.body.section[0].container.row[0].col.card.href;
+                document.getElementById("team-img").src = jsonData.body.section[0].container.row[0].col.card.image.src;
+                document.getElementById("team-title").innerText = jsonData.body.section[0].container.row[0].col.card.cardBody.h5.text;
+
+                document.getElementById("services-link").href = jsonData.body.section[0].container.row[1].col.card.href;
+                document.getElementById("services-img").src = jsonData.body.section[0].container.row[1].col.card.image.src;
+                document.getElementById("services-title").innerText = jsonData.body.section[0].container.row[1].col.card.cardBody.h5.text;
+
+                document.getElementById("join-link").href = jsonData.body.section[0].container.row[2].col.card.href;
+                document.getElementById("join-img").src = jsonData.body.section[0].container.row[2].col.card.image.src;
+                document.getElementById("join-title").innerText = jsonData.body.section[0].container.row[2].col.card.cardBody.h5.text;
+
+                document.getElementById("something-else").innerText = jsonData.body.section[0].h2.text;
+                document.getElementById("website-app-link").href = jsonData.body.section[0].link.href;
+                document.getElementById("website-app-link").innerText = jsonData.body.section[0].link.text;
+
+                document.getElementById("mission-paragraph1").innerText = jsonData.body.section[1].container.paragraphs[0];
+                document.getElementById("mission-paragraph2").innerText = jsonData.body.section[1].container.paragraphs[1];
+
+                document.getElementById("footer-text").innerHTML = jsonData.body.footer.text;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+</script>
 </html>
